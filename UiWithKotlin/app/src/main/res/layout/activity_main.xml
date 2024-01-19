@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/layout_bg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCalculator"
+        style="@style/button"
+        android:background="@drawable/button1_bg"
+        android:text="@string/button_one" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAni"
+        style="@style/button"
+        android:background="@drawable/button2_bg"
+        android:text="@string/button_two" />
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/button"
+        android:id="@+id/btnCart"
+        android:background="@drawable/button3_bg"
+        android:text="@string/button_three"
+        app:rippleColor="#E01313" />
+</LinearLayout>

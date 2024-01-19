@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/relativeLayout"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/stone_toast_message"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivToast"
+        android:layout_width="268dp"
+        android:layout_height="128dp"
+        android:layout_above="@id/tvToast"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/stone"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tvToast1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvToast"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:paddingTop="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/stone_toast_message123" />
+</RelativeLayout>

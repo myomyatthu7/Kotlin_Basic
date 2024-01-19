@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">UiWithKotlin</string>
+    <string name="button_one">Button One</string>
+    <string name="button_two">Button Two</string>
+    <string name="button_three">Button Three</string>
+    <string name="calculate">Calculate</string>
+    <string name="k50_gaming">K50 Gaming 820000</string>
+    <string name="note_11_pro">Note 11 pro 5G 579000</string>
+    <string name="note_11e_pro">Note 11E pro 477000</string>
+    <string name="note_11e">Note 11E 282000</string>
+    <string name="note_11_4g">Note 11 4g 299000</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="discount_or_not">Discount or Not?</string>
+    <string name="total">Total</string>
+</resources>

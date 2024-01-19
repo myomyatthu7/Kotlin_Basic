@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="radio_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name= "android:textSize">18sp</item>
+    </style>
+<!--    <style name="videoView">-->
+<!--        <item name="android:layout_width">match_parent</item>-->
+<!--        <item name="android:layout_height">match_parent</item>-->
+<!--        <item name="layout_constraintBaseline_toBottomOf">parent</item>-->
+<!--        <item name="layout_constraintStart_toStartOf">parent</item>-->
+<!--        <item name="layout_constraintEnd_toEndOf">parent</item>-->
+<!--        <item name="layout_constraintTop_toTopOf">parent</item>-->
+<!--    </style>-->
+</resources>

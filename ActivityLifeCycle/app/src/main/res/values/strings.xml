@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ActivityLifeCycle</string>
+    <string name="stop">Stop</string>
+    <string name="anotherActivity">AnotherActivity</string>
+    <string name="phone_call">Phone Call</string>
+    <string name="stone_toast_message">Stone Toast Message</string>
+    <string name="stone_toast_message123">stone_toast_message123</string>
+</resources>

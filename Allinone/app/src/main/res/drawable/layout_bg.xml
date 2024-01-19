@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/bmi_start"/>
+            <corners
+                android:topRightRadius="12dp"
+                android:bottomLeftRadius="12dp"
+                />
+            <stroke
+                android:width="2dp"
+                android:color="@color/layout_bg"
+                />
+        </shape>
+    </item>
+    <item android:state_enabled="true">
+        <shape>
+            <gradient
+                android:startColor="@color/bmi_start"
+                android:endColor="@color/bmi_end"
+                />
+            <corners
+                android:topRightRadius="12dp"
+                android:bottomLeftRadius="12dp"
+                />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingStart="24dp"
+    android:paddingEnd="12dp"
+    android:paddingTop="34dp"
+    tools:context=".radioGroup.Gmail">
+<TextView
+    style="@style/tvGmail"
+    android:text="@string/to"
+    />
+    <EditText
+        android:id="@+id/etAddress"
+        android:inputType="textEmailAddress"
+        android:hint="@string/address"
+        android:textSize="20sp"
+        style="@style/etGmail"
+         />
+    <TextView
+        style="@style/tvGmail"
+        android:text="@string/subject"
+        />
+    <EditText
+        android:id="@+id/etSubject"
+        android:inputType="textEmailSubject"
+        android:hint="@string/subject"
+        android:textSize="20sp"
+        style="@style/etGmail"
+        android:importantForAutofill="no" />
+    <TextView
+        style="@style/tvGmail"
+        android:text="@string/message"
+        />
+    <EditText
+        android:hint="@string/what_do_you_want_to_say"
+        android:textSize="20sp"
+        style="@style/etGmail"
+        android:minLines="2"
+        android:maxLines="3"
+        android:id="@+id/etMessage"
+        android:inputType="textFilter"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSent"
+        android:text="Sent"
+        android:textAllCaps="false"
+        android:textSize="26sp"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="Basic">
+    <EditTextPreference
+        android:title="Enter your name"
+        android:key="name"
+        app:useSimpleSummaryProvider="true"
+        android:summary="Enter your name here"
+        />
+    <CheckBoxPreference
+        android:title="Check this box and close music"
+        android:key="checkb"
+        android:summary="Check this box and close music"
+        android:checked="false"
+        />
+<SwitchPreference
+    android:title="Switch"
+    android:key="switch"
+    android:defaultValue="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:summary="Basic">
+        <ListPreference
+            android:entries="@array/list"
+            android:entryValues="@array/listValue"
+            android:key="dark_mode"
+            app:useSimpleSummaryProvider="true"
+            android:defaultValue="true"
+            android:title="Dark mode" />
+    </PreferenceCategory>
+    <Preference android:title="Website"
+        android:summary="Click my website">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://www.google.com"
+            />
+    </Preference>
+</PreferenceScreen>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:paddingStart="24dp"
+    android:paddingEnd="4dp"
+    tools:context=".radioGroup.RadioGroup">
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/rbtCall"
+            style="@style/radio_button"
+            android:text="@string/call_phone" />
+        <RadioButton
+            android:id="@+id/rbtGmail"
+            style="@style/radio_button"
+            android:text="@string/gmail" />
+        <RadioButton
+            android:id="@+id/rbtVideo"
+            style="@style/radio_button"
+            android:text="@string/play_video" />
+        <RadioButton
+            android:id="@+id/rbtFrame"
+            style="@style/radio_button"
+            android:text="@string/frame_layout" />
+    </RadioGroup>
+</LinearLayout>

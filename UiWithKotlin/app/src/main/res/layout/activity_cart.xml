@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cart">
+
+    <TextView
+        android:id="@+id/tvCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_to_cart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:textStyle="bold"
+        android:textSize="38sp"
+        />
+
+    <CheckBox
+        android:id="@+id/cbK50"
+        android:layout_below="@+id/tvCart"
+        android:layout_alignStart="@+id/tvCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:textSize="18sp"
+        android:text="@string/k50_gaming" />
+
+    <CheckBox
+        android:id="@+id/cbNote11P"
+        android:layout_below="@+id/cbK50"
+        android:layout_alignStart="@+id/tvCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/note_11_pro" />
+    <CheckBox
+        android:id="@+id/cbNote11eP"
+        android:layout_below="@+id/cbNote11P"
+        android:layout_alignStart="@+id/tvCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/note_11e_pro" />
+    <CheckBox
+        android:id="@+id/cbNote11E"
+        android:layout_below="@+id/cbNote11eP"
+        android:layout_alignStart="@+id/tvCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/note_11e" />
+    <CheckBox
+        android:id="@+id/cbNote114g"
+        android:layout_below="@+id/cbNote11E"
+        android:layout_alignStart="@+id/tvCart"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:text="@string/note_11_4g" />
+
+    <TextView
+        android:id="@+id/tvDis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cbNote114g"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/discount_or_not" />
+
+    <ToggleButton
+        android:id="@+id/tgbDis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDis"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp" />
+
+    <TextView
+        android:id="@+id/tvTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:textSize="34sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/total"
+        android:textSize="24sp"
+        android:layout_below="@+id/tgbDis"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

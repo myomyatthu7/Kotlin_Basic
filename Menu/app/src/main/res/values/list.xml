@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list">
+        <item>Night mode</item>
+        <item>Light mode</item>
+        <item>Follow system mode</item>
+        <item>Auto battery night mode</item>
+    </string-array>
+    <string-array name="listValue">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

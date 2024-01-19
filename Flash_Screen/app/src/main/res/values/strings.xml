@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Flash_Screen</string>
+    <string name="unicode">ယခု app သည် Contacts, ဗီဒီယို ၊ သီချင်း စသော ဖိုင်အမည်များကို Zawgyi မှ Unicode သို့မဟုတ် Unicode မှ Zawgyi သို့ အပြန်အလှန် ပြောင်းပေးနိုင်သော application ဖြစ်ပါသည်။ အမည်များ ပြောင်းနေစဉ်တွင် app ထဲမှ လုံးဝ ထွက်မသွားပါနှင့်။ အသုံးမပြုခင် သုံးစွဲပုံအပြည့်အစုံကို ဤနေရာတွင် ဖတ်ပေးပါ။</string>
+    <string name="tile">Android Development School</string>
+    <string name="call_phone">Call phone two methods</string>
+    <string name="send_email">Send email to whoever you wish</string>
+    <string name="learn_to_play">Learn to play video</string>
+    <string name="sendPic">Send drawable pictures</string>
+    <string name="sendInternalPic">Send internal memory pictures</string>
+    <string name="go">Go</string>
+    <string name="enter_ph_number">Enter ph number</string>
+    <string name="call">Call</string>
+    <string name="check_bill">Check Bill</string>
+</resources>

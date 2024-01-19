@@ -1,0 +1,5 @@
+MgMg==200
+SuSu==400
+KyawKyaw==300
+AungAung==250
+NuNu==100

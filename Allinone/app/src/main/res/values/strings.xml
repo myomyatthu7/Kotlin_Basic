@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">All in one</string>
+    <string name="bmi_calculator">BMI Calculator</string>
+    <string name="weight">Weight</string>
+    <string name="enter_your_weight">Enter your weight</string>
+    <string name="height">Height</string>
+    <string name="enter_your_height">Enter your Height</string>
+    <string name="cm">Cm</string>
+    <string name="kg">Kg</string>
+    <string name="range">Normal range is between 18.5 and 25</string>
+    <string name="likes_page">3000:Likes this page</string>
+    <string name="flash_screen">Flash Screen</string>
+    <string name="textview">အခမဲ့စာအုပ်များ free download ပြုလုပ်နိုင်သည်။</string>
+
+    <string name="tile">Android Development School</string>
+    <string name="call_phone">Call phone two methods</string>
+    <string name="send_email">Send email to whoever you wish</string>
+    <string name="learn_to_play">Learn to play video</string>
+    <string name="sendPic">Send drawable pictures</string>
+    <string name="sendInternalPic">Send internal memory pictures</string>
+    <string name="enter_your_ph_numbers">Enter your ph numbers</string>
+    <string name="call">Call</string>
+    <string name="check_bill">Check Bill</string>
+    <string name="gmail">Gmail</string>
+    <string name="address">Address</string>
+    <string name="to">To</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="what_do_you_want_to_say">What do you want to say?</string>
+    <string name="play_video">Play Video</string>
+    <string name="frame_layout">FrameLayout</string>
+</resources>
